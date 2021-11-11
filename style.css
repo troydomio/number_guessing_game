@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #dbf0ed;
+}
+
+
+
+/* results container */
+.results{
+border: black 1px solid;
+}
+.warm-or-cold{
+
+}
+.remaining-turns{
+
+}
+.last-guess{
+
+}
