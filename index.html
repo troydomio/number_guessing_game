@@ -13,14 +13,17 @@
         <p>If not, you will be invited to play again</p>
         <p>Good luck!</p>
 
+        <div class="guess-container">
         <h4>Enter a Guess</h4>
-        <input type="text" placeholder="a number between 1-50">
-        <input type="submit" value="Let's go!"/>
-        
+        <input type="text" placeholder="a number between 1-50" class="guess-input" id="guess"></input>
+        <input type="submit" value="Let's go!" class="guess-button" id="button"/>
+        </div>
+
         <div class="results">
-        <p class="warm-or-cold"></p>
-        <p class="remaining-turns"></p>
-        <p class="last-guess"></p>
+        <p id="winner"></p>
+        <p id="clue"></p>
+        <p id="turns"></p>
+        <p id="last-guess"></p>
        </div>
         
     </body>
