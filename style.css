@@ -1,32 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: #dbf0ed;
+body{ 
+   background-color: #6782b4;
+    text-align: center;
+    padding: 1%;
+}
+h1, h4{
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(207, 205, 205);
+}
+
+.rules{
+    display: flex; 
+}
+.rules p{
+    flex: 1;
+    box-shadow: 5px 5px 5px rgb(207, 205, 205);
+    border-radius: 50%;
+    background-color: #f2f2f2;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   padding: 3%;
+    margin: 2%;
+    height: 10%;
+    width: 17%;
+    font-family: 'Play', sans-serif;
+}
+
+.guess-input{
+    width: 50%;
+    line-height: 80px;
+    font-size: 50px;
+}
+.guess-button{
+    width: 50%;
+    line-height: 50px; 
+    background-color: #b1bfd8;
+background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+border: none;
+}
+.guess-button:hover{
+    background-image: none;
+}
+.newbtn{
+    width: 50%;
+    line-height: 50px; 
+    background-color: #b1bfd8;
+background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+border: none;
+}
+.newbtn:hover{
+    background-image: none;
 }
 
 
-/* Guess Container */
-.guess-container{
-
-}
-guess-input{
-
-}
-guess-button{
-    
-}
-
-/* results container */
 .results{
-border: black 1px solid;
-}
-.warm-or-cold{
-
-}
-.remaining-turns{
-
-}
-.last-guess{
-
+    font-family: 'Play', sans-serif;
+    color: rgb(207, 205, 205);
 }

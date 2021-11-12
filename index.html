@@ -4,19 +4,22 @@
         <title>Guess a Number!</title>
         <script src="index.js" defer></script>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" 
+      type="image/png" 
+      href="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1571606036">
     </head>
     <body>
         <h1>Number Guessing Game</h1>
-
+        <div class="rules">
         <p>Let's play a game! Guess a number between 1-50.</p>
-        <p>If you guess the correct number within 10 attempts you will receive a surprise!</p>
+        <p>If you guess the correct number within 10 attempts you win!</p>
         <p>If not, you will be invited to play again</p>
-        <p>Good luck!</p>
-
+        <p class="gl">Good luck! (Answer is logged in dev tools)</p>
+        </div>
         <div class="guess-container">
-        <h4>Enter a Guess</h4>
-        <input type="text" placeholder="a number between 1-50" class="guess-input" id="guess"></input>
-        <input type="submit" value="Let's go!" class="guess-button" id="button"/>
+        <h4>Enter a guess between 1-50</h4>
+        <input type="text" class="guess-input" id="guess"></input>
+        <input type="submit" value="Take a guess!" class="guess-button" id="button"/>
         </div>
 
         <div class="results">
@@ -24,6 +27,5 @@
         <p id="clue"></p>
         <p id="turns"></p>
        </div>
-        
     </body>
 </html>

@@ -29,6 +29,7 @@ if(turn >= 1 && turn < 10) {
     button.remove();
     let newButton = document.createElement('button')
     newButton.textContent= 'Play again'
+    newButton.className="newbtn"
     let guessContainer = document.querySelector('.guess-container');
     guessContainer.appendChild(newButton)
 
