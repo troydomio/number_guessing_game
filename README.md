@@ -26,3 +26,6 @@ This project is my version of an exercise provided by the <a href="https://devel
     - I created a nested conditional:
             - outer: "IF this is the player's first turn and their turn is less than 10 let them play the game. ELSE don't let them play the game and start over."
              - inner: "IF the guess is the correct display --- ELSE IF  the guess is to high/low display --- "
+
+    <a href="https://troydomio.github.io/number_guessing_game/">DEMO</a>
+    
